@@ -24,6 +24,14 @@
         android:order="-140"
         android:key="top_level_account_category"
         android:layout="@layout/settingslib_preference_category_no_title">
+
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="tokyo.witaqua.settings.WitAquaSettings"
+            android:icon="@drawable/ic_settings_witaqua"
+            android:key="top_level_witaqua"
+            android:order="-50"
+            android:title="@string/witaqua_dashboard_title"
+            settings:controller="tokyo.witaqua.settings.TopLevelWitAquaSettingsPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
