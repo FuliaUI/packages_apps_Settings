@@ -9,4 +9,7 @@
     <string name="witaqua_version">WitAqua version</string>
     <string name="witaqua_version_default">Unknown</string>
 
+    <!-- Platform version -->
+    <string name="platform_version">Platform version</string>
+
 </resources>
