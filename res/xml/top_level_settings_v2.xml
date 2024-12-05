@@ -22,7 +22,7 @@
 
     <PreferenceCategory
         android:order="-140"
-        android:key="top_level_account_category"
+        android:key="top_level_witaqua_category"
         android:layout="@layout/settingslib_preference_category_no_title">
 
         <com.android.settings.widget.HomepagePreference
@@ -226,6 +226,12 @@
             android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
             settings:isPreferenceVisible="@bool/config_show_emergency_settings"
             settings:highlightableMenuKey="@string/menu_key_emergency"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:order="-90"
+        android:key="top_level_account_category"
+        android:layout="@layout/settingslib_preference_category_no_title">
     </PreferenceCategory>
 
     <PreferenceCategory
